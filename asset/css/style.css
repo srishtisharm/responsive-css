@@ -1,0 +1,37 @@
+.main{
+    height: 500px;
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+    display: none;
+}
+@media (min-width:320px) and (max-width:480px){
+    #one{
+        display: block;
+        background-color: aqua;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    #two{
+        display: block;
+        background-color: pink;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    #three{
+        display: block;
+        background-color:blue;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    #four{
+        display: block;
+        background-color: red;
+    }
+}
+@media (min-width:1201px){
+    #five{
+        display: block;
+        background-color: yellow;
+    }
+}
